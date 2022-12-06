@@ -8,33 +8,15 @@ public class Puzzle2A extends Puzzle{
         int score = 0;
         for (String s : getInput()){
             switch (s){
-                case "A X":
-                    score += 4;
-                    break;
-                case "A Y":
-                    score += 8;
-                    break;
-                case "A Z":
-                    score += 3;
-                    break;
-                case "B X":
-                    score += 1;
-                    break;
-                case "B Y":
-                    score += 5;
-                    break;
-                case "B Z":
-                    score += 9;
-                    break;
-                case "C X":
-                    score += 7;
-                    break;
-                case "C Y":
-                    score += 2;
-                    break;
-                case "C Z":
-                    score += 6;
-                    break;
+                case "A X" -> score += 4;
+                case "A Y" -> score += 8;
+                case "A Z" -> score += 3;
+                case "B X" -> score += 1;
+                case "B Y" -> score += 5;
+                case "B Z" -> score += 9;
+                case "C X" -> score += 7;
+                case "C Y" -> score += 2;
+                case "C Z" -> score += 6;
             }
         }
         setResult(score);

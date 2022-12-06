@@ -14,6 +14,8 @@ public class App {
         Puzzle p3b = new Puzzle3B();
         Puzzle p4a = new Puzzle4A();
         Puzzle p4b = new Puzzle4B();
+        Puzzle p5a = new Puzzle5A();
+        Puzzle p5b = new Puzzle5B();
 
     }
 }
